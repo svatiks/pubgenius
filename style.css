@@ -1,6 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 body{
-  background-color: aliceblue;  
+  margin: 0;
 }
-h1{
-    color: aliceblue;
+.header__row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+}
+header{
+  padding: 10px 0;
+  background-image: url("img/Rectangle.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+}
+.content{
+  padding: 0 140px;
+}
+.header__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header__content img{
+  padding: 60px;
+  width: 35%;
+}
+.header__content h1{
+  margin: 66px;
+  margin-bottom:50px;
+  color: white;
+  font-size: 54px;
+  text-align: center;
+  
+}
+.line{
+  position: absolute;
+  top: -25%;
+  left: -5%;
+}
+.circle{
+  position: absolute;
+  top: 50%;
+  left: 86%;
 }
